@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), transparent), url(images/background1.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0.8%;
+    position: relative;
+    padding: 20px;
+ }
+
+/*text*/
+.container h1 {
+    font-size: 8vw;
+    margin-left: 10px;
+    font-family: "Mochiy Pop P One", sans-serif;
+    -webkit-text-stroke: 0.5px #fff;
+    color: transparent;
+    background: url(images/rolly.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: rolly 20s linear infinite;
+ }
+ 
+ @keyframes rolly {
+    100% {
+       background-position: 2000px 0;
+    }
+ }
+
+ /*buttton*/
+ .container button {
+    width: 50%;
+    height: 20%;
+    border-radius: 18px;
+    margin-left: 19vw;
+    margin-top: 10px;
+ }
+ 
+ button {
+    background-color: #FFE135;
+    border: none;
+    margin-top: 5px;
+    padding: 14px 2px;
+    align-items: center;
+    font-size: 3vw;
+ }
+
+ a {
+    text-decoration: none;
+    color: #fff;
+ }
+ button :hover {
+   color: #ad7c2d;
+ }
+ 
