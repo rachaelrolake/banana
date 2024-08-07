@@ -12,7 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(/images/lo.jpg) no-repeat;
+    background: linear-gradient(#ffcc04, #be9b7b);
     background-size: cover;
     background-position: center;
 }
