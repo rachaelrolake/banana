@@ -115,9 +115,10 @@ body {
         height: 0;
         background: rgba(0, 0, 0, .2);
         backdrop-filter: blur(60px);
-        box-shadow: 0.5rem 1rem rgba(0, 0, 0, .2);
+        box-shadow: 0rem 0.1rem rgba(0, 0, 0, .2);
         overflow: hidden;
         transition: .3s ease;
+        z-index: 10 ;
     }
 
     #check:checked~.nav-bar {
