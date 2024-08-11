@@ -687,6 +687,7 @@ img {
     color: #314486;
     font-size: 35px;
 }
+
 .accordion {
     margin: 40px auto 60px auto;
     width: 900px;
@@ -696,12 +697,12 @@ img {
 .accordion li {
     list-style: none;
     width: 100%;
-    /*margin: 20px;*/
     padding: 15px 0;
     border-radius: 8px;
     background: #f2f7e3;
     box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
-                 -6px -6px 10px -1px rgba(225, 225, 225, 0.7);
+                -6px -6px 10px -1px rgba(225, 225, 225, 0.7);
+    margin-bottom: 10px;
 }
 
 .accordion li label {
@@ -720,7 +721,7 @@ img {
     font-weight: 600;
 }
 
-.accordion input[type="radio"] {
+.accordion input[type="checkbox"] {
     display: none;
 }
 
@@ -733,12 +734,12 @@ img {
     transition: max-height 0.5s, padding 0.5s;
 }
 
-.accordion input[type="radio"]:checked + label + .content {
+.accordion input[type="checkbox"]:checked + label + .content {
     max-height: 400px;
     padding: 10px 10px 20px;
 }
 
-.accordion input[type="radio"]:checked + label::before {
+.accordion input[type="checkbox"]:checked + label::before {
     content: '⋏';
 }
 
@@ -849,8 +850,8 @@ ul {
 /*scroll effect*/
 .hidden {
     opacity: 0;
-    filter: blur(0);
-    transition: all 1s;
+    filter: blur(1);
+    transition: all 2.5s;
 }
 
 .show {
